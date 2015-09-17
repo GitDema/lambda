@@ -246,7 +246,7 @@ h3{
 
 .content3{
 	width: 1200px;
-	height: 700px;
+	height: 800px;
 	margin: 0 auto;
 	position: relative;
 	top: -7px;
@@ -257,8 +257,12 @@ h3{
 .left-col{
 	display: inline-block;
 	width: 400px;
-	height: 600px;
-	text-align: left;
+	margin: 50px 0 0 160px;
+	
+}
+
+.menu-items{
+	margin-bottom: 50px;
 }
 
 .menu-items h3{
@@ -267,20 +271,54 @@ h3{
 	text-align: center;
 }
 
-.content3 h5{
-	display: inline-block;
-	color: #c90;
-	font-size: 20px;
+.item-info{
+	width: 350px;
+	position: relative;
+	margin-bottom: 20px;
 }
 
+.name-item{
+	display: inline-block;
+	width: 350px;
+	color: #c90;
+	font-size: 20px;
+	font-weight: bold;
+	margin-bottom: 10px;
+}
+.name-item span{
+	float: right;
+}
 
+.special{
+	border: 1px solid #eedda6;
+	margin-top: 25px;
+}
+.special:before{
+	content: 'Special';
+	width: 40px;
+	height: 10px;
+	line-height: 10px;
+	padding: 5px;
+	position: absolute;
+	right: -1px;
+	top: -20px;
+	text-align: center;
+	font-size: 12px;
+	color: #fff;
+	background: #c90;
+}
+
+.item-info hr{
+	height: 1px;
+	background: #c90;
+	margin-bottom: 10px;
+}
 
 
 .right-col{
 	display: inline-block;
+	margin: 50px 0 0 100px;
 }
-
-
 
 
 /*============GUEST-REVIEW=============*/
@@ -468,7 +506,7 @@ footer .about-us{
 }
 	
 .schedule{
-	margin-left: 100px;
+	margin-left: 130px;
 }
 
 footer ul{
